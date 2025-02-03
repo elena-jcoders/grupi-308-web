@@ -1,0 +1,12 @@
+body{
+    background-color: cadetblue;
+}
+div{
+    background-color: white;
+    /* width: 300px; */
+    display:block;
+}
+img{
+    width: 250px;
+    height: auto;
+}

@@ -1,0 +1,9 @@
+.background{
+    width: ; height: ;
+    background-image: url();
+    background-repeat: ;
+    background-size: ;
+}
+.background:hover{
+    transform: scale(1.1);
+}

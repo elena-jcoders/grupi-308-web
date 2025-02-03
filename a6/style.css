@@ -1,0 +1,24 @@
+h1{
+    color:red;
+    /* tu e perdor tekst */
+    letter-spacing: 20px;
+    word-spacing: 100px;
+    /* text-indent: -50px; */
+    /* text-decoration: overline green; */
+    /* text-decoration: underline pink; */
+    text-decoration: line-through blue;
+
+}
+h2{
+    color:#00ffff;
+    /* tu perdor heksadecimal */
+}
+h3{
+    color:rgb(99, 43, 43);
+    background-color: rgb(145, 100, 45);
+}
+p{
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+}

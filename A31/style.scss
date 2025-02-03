@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: red;
+
+    img{
+        width: 60px;
+        height: auto;
+    }
+    .logo{
+        width: 40%;
+    }
+    button{
+        margin-left: 30px;
+    }
+    .menu{
+        display: flex;
+        width: 60%;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        gap:30px;
+        li{
+            list-style: none;
+        }
+    }
+}
+

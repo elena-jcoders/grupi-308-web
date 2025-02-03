@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 120px;
+    height: auto;
+}
+header{
+    background-color: grey;
+    padding: 30px 40px;
+}
+li{
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+    margin-left: 1200px;
+}
+section{
+    width: 50vw;
+    height: 100vh;
+    background-color: blue;
+}

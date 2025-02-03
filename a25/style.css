@@ -1,0 +1,17 @@
+p::first-line{
+    background-color: red;
+}
+p::first-letter{
+    background-color: blue;
+}
+.description::before{
+content: "Elena";
+background-color: green;
+}
+.description::after{
+    /* content:"Grupi 308"; */
+    content:"\u2663";
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: 900;
+}

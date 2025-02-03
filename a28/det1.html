@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(niko-photos-tGTVxeOr_Rs-unsplash.jpg);
+        background-size: cover;
+        opacity: 0.6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .7s ease-in-out;
+
+    }
+    .main:hover{
+        opacity: 1;
+        transition: .7s ease-in-out;
+    }
+    h1,button{
+        position: relative;
+        z-index: 99999!important;
+        opacity: 1;
+    }
+</style>
+<body>
+    <div class="main">
+        <h1>Lorem</h1>
+        <button>Submit</button>
+    </div>
+</body>
+</html>

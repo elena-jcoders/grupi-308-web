@@ -1,0 +1,22 @@
+@import url(./_colors.scss);
+@import "./colors.scss";
+@use "./colors.scss";
+$color:red;
+
+.main{
+    background-color: $color;
+    width: 500px; height: 500px;
+    display: flex;
+    .container
+    {
+        background-color: blue;
+        width: 50%; height: 100%;
+        background-color: $primar-color;
+    }
+    .container-2{
+        background-color: aqua;
+        width: 50%; height: 100%;
+
+
+    }
+}

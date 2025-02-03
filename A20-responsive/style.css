@@ -1,0 +1,42 @@
+img{
+    width: 500px;
+    height: auto;
+    display: block;
+}
+.content{
+    width: 70%;
+    background-color: bisque
+}
+.container{
+    background-color: aqua;
+    width: 30%;
+}
+.main{
+    display: flex;
+}
+@media screen and (max-width:767px){ 
+    
+    .main{
+        flex-direction: column;
+    }
+    .container, .content{
+        width: 100%;
+       
+    }}
+/* @media screen and (max-width:1023px){
+    body{
+        background-color: lightseagreen;
+    }
+} */
+/* per telefon */
+@media screen and (max-width:767px){ 
+    
+    .main{
+        flex-direction: column;
+    }
+    .container, .content{
+        width: 100%;
+       
+    }
+
+}
